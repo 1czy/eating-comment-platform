@@ -13,14 +13,15 @@ import java.io.IOException;
 
 /**
  * 发送短信工具类
+ * @author CZY
  */
 public class SMSUtil {
     public static String sendSMS(HttpServletRequest request, String phoneNumber,String code) {
         String reStr = ""; //定义返回值
         // 短信应用SDK AppID  1400开头
-        int appid = 1400753462 ;
+        int appid = 1400753461 ;
         // 短信应用SDK AppKey
-        String appkey = "5742324e226bb7a6d04db8ea799b8718";
+        String appkey = "5742324e226bb7a6d04db8ea799b8734";
         // 短信模板ID，需要在短信应用中申请
         int templateId = 1580134 ;
         // 签名，使用的是签名内容，而不是签名ID
