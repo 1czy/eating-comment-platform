@@ -17,6 +17,8 @@ https://github.com/1czy/eating-comment-platform
  - JDK 1.8
 
  - SpringBoot 2.3.12.RELEASE
+ 
+ - MyBatis-Plus
 
  - MySQL 8
 
